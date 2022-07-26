@@ -12,7 +12,13 @@ public class LinkedListMain {
         System.out.println(linkedList.popLast());
 
         linkedList.display();
+        System.out.println();
 
-
+        if(linkedList.search(30) != null ){
+            System.out.println("Data found");
+        }
+        else{
+            System.out.println("Data not found");
+        }
     }
 }
